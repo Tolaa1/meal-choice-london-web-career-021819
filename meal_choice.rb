@@ -3,7 +3,7 @@
 
 def meal_choice(name = "meat")
   puts "#{name}"
-  return meal_choice
+  return name
 end
 meal_choice 
 meal_choice ("vegan")
